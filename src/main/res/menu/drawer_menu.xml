@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/option_main"
+            android:title="@string/option_main"
+            android:icon="@drawable/ic_home_grey600_24dp"
+            />
+        <item
+            android:id="@+id/option_like"
+            android:title="@string/option_like"
+            android:icon="@drawable/ic_grade_grey600_24dp"
+            />
+        <item
+            android:id="@+id/option_about"
+            android:title="@string/option_about"
+            android:icon="@drawable/ic_info_grey600_24dp"
+            />
+        <item
+            android:id="@+id/option_finish"
+            android:title="@string/option_finish"
+            android:icon="@null"
+            />
+    </group>
+</menu>

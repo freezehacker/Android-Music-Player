@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.demo.vita.vitamusicplayer.FirstActivity">
+
+    <item
+        android:id="@+id/play_order"
+        android:orderInCategory="100"
+        android:title="顺序播放"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/play_loop"
+        android:orderInCategory="110"
+        android:title="单曲循环"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/play_random"
+        android:orderInCategory="120"
+        android:title="随机播放"
+        app:showAsAction="never" />
+</menu>
